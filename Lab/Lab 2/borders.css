@@ -1,0 +1,65 @@
+.Dot{
+    display:inline-block;
+    border-style: dotted;
+    padding: 10px 30px;
+    margin: 10px 10px;
+    
+}
+.Dash{
+    display:inline-block;
+    border-style: dashed;
+    padding: 10px 30px;
+    margin: 10px 10px;
+}
+.Solid{
+    display:inline-block;
+    border-style: solid;
+    padding: 10px 35px;
+    margin: 10px 10px;
+}
+.Double{
+    display:inline-block;
+    border-style: double;
+    padding: 10px 30px;
+    margin: 10px 10px;
+}
+.Groove{
+    display:inline-block;
+    border-style: groove;
+    padding: 10px 29px;
+    margin: 10px 10px;
+}
+.Ridge{
+    display: inline-block;
+    border-style: ridge;
+    padding: 10px 34px;
+    margin: 10px 10px;
+}
+.In{
+    display: inline-block;
+    border-style: inset;
+    padding: 10px 37px;
+    margin: 10px 10px;
+}
+.Out{
+    display: inline-block;
+    border-style: outset;
+    padding: 10px 33px;
+    margin: 10px 10px;
+}
+.None{
+    display: inline-block;
+    border-style: none;
+    padding: 10px 35px;
+    margin: 10px 10px;
+}
+.Hidden{
+    display: inline-block;
+    border-style: hidden;
+    padding: 10px 35px;
+    margin: 10px 10px;
+}
+.align{
+    max-width: 800px;
+    margin: auto;
+}
