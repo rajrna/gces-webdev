@@ -12,16 +12,16 @@
    
    Button border
      Borders are created on a button using border property.
-     border-style:
-     There are different types of borders which can be called using border-style property.
-     The different types of borders are:
-      Dotted
-      Dashed
-      Solid
-      Grooved
-      Ridge
-      Inset
-      Outset
+      border-style:
+       There are different types of borders which can be called using border-style property.
+       The different types of borders are:
+        Dotted
+        Dashed
+        Solid
+        Grooved
+        Ridge
+        Inset
+        Outset
 
       border-color:
       Border colors can be changed using border-color property.
@@ -31,8 +31,8 @@
      padding:
       This property is used to create space around the element's content, inside of any defined borders. Similar to margin, padding also can take four values for the spacing and in same order (top right bottom left).It's shorthand property can be used to space equally around the element's content and the border from inside.
         Example : padding : 10px;
-#Pseudo Class
-     Pseudo class is used to define a special state of an element. It is mostly found to be used with button creation such as changing the state of the button when cursor hovers over it, similarly when button is clicked or the button is not working. It is used to create user interface. It is used with the tags with ':' operator.
+# Pseudo Class
+     Pseudo class is used to define a special state of an element. It is mostly found to be used with button creation such as changing the state  of the button when cursor hovers over it, similarly when button is clicked or the button is not working. It is used to create user interface. It is used with the tags with ':' operator.
       Some of the Pseudo Classes are:
         :hover
         -It's properties are executed when the cursor hovers over the element.
