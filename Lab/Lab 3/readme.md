@@ -1,0 +1,1 @@
+[![screencapture-file-C-Users-LEGION-Desktop-wt-git-practice-Lab-Lab-3-index-html-2022-05-12-11-08-19.png](https://i.postimg.cc/wjLMQdH1/screencapture-file-C-Users-LEGION-Desktop-wt-git-practice-Lab-Lab-3-index-html-2022-05-12-11-08-19.png)](https://postimg.cc/LJ4mmwJS)
