@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let numbers=[1,2,3,4,5,6,7,8,9,10];
+        console.log("Odd:");
+        console.log(numbers[0]);
+        console.log(numbers[2]);
+        console.log(numbers[4]);
+        console.log(numbers[6]);
+        console.log(numbers[8]);
+        console.log("Even");
+        console.log(numbers[1],numbers[3],numbers[5],numbers[7],numbers[9]);
+
+        for(i=0;i<=9;i++){
+            // console.log(numbers[i]);
+            if(numbers[i]%2==0){
+                console.log("Even:",numbers[i]);
+            }
+            else{
+                console.log("Odd",numbers[i]);
+            }
+        }
+        let name=[];
+       for(i=0;i<=4;i++){
+           name[i]=prompt("Enter name ");
+       }
+       for(i=0;i<=4;i++){
+           console.log(name[i]);
+       }
+       
+    </script>
+</body>
+</html>

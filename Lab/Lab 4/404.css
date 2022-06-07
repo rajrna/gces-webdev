@@ -32,25 +32,23 @@
     color: #A9ADB5;
     margin-bottom: 30px;
 }
-.home_btn{
-    background-color: #554DE6;
-    border: solid 1px;
+.btn{
     border-radius: 10%;
     display: inline-block;
+    border:solid 1px;
     font-size: 14px;
-    margin-left: 96px;
     padding: 7px 12px;
-    color: aliceblue;
     text-decoration: none;
+}
+.home_btn{
+    background-color: #554DE6;  
+    margin-left: 96px;
+    color: aliceblue;
 }
 .contact_btn{
     background-color: #E0E7FE;
-    border: solid 1px #E0E7FE;
-    border-radius: 10%;
-    display: inline-block;
-    font-size: 14px;
+    border:  #E0E7FE;
     margin-left: 10px;
-    padding: 7px 12px;
     color: #8480E0;
-    text-decoration: none;
+
 }

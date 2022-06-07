@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num=[];
+        for(i=0;i<3;i++){
+            num[i]=prompt("Enter 3 numbers");
+        }
+        if(num[0]>num[1] && num[0]>num[2]){
+            console.log(num[0] ,"is the largest number");
+        }
+        else if(num[1]>num[0] && num[1]>num[2]){
+            console.log(num[1],"is the largest number");
+        }
+        else{
+            console.log(num[2],"is the largest number");
+        }
+    </script>
+</body>
+</html>

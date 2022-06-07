@@ -1,0 +1,38 @@
+JS is loose language
+
+Hoisting
+    The declaration of variables is forwarded so that it is possible to decclare variables after functions
+    Doesn't work with let
+
+    
+
+
+primtive data types
+    Num
+    String
+    BigInt
+    Boolean
+    Undefined
+    Null
+
+derived data types
+
+Operator
+    Arithmetic Operator
+    +,-,*,/,%,**
+    Increment & Decrement
+    ++a,a++,--a,a--
+    Relational Operators
+    <,>,<=,>=,==,!=,===
+    Logical Operators
+    
+Array
+    Collection of similar data types
+    array literal-[]
+    array ex:
+        let student=["ram","sa"]
+
+Grouping
+
+
+
