@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function stringReverse(string){
+            const arrayString = string.split("");
+            const revString = arrayString.reverse();
+            const newArray = arrayString.join("");
+            return newArray;
+        }
+
+
+
+       const string1 = prompt('Enter string:');
+       const finalString = stringReverse(string1);
+       console.log(finalString);
+     
+    </script>
+</body>
+</html>

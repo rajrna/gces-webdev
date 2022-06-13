@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const length=prompt("Enter the length of array");
+        let array=[];
+        for(i=0;i<length;i++){
+            array[i]=prompt("Enter the numbers");
+        }
+        let sort=prompt("Enter 1 for ascending order and 2 for descending order");
+        if(sort==1){
+            array.sort(function(a, b){return a - b});
+            console.log(array);
+        }
+        else if(sort==2){
+            array.sort(function(a,b){return b - a});
+            console.log(array);
+        }
+
+    </script>
+</body>
+</html>

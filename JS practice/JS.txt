@@ -1,5 +1,7 @@
 JS is loose language
 
+prompt
+    JS takes input as string. To add variables we must use parseint().
 Hoisting
     The declaration of variables is forwarded so that it is possible to decclare variables after functions
     Doesn't work with let
@@ -35,4 +37,56 @@ Array
 Grouping
 
 
+for of  
+    ex:
+        const cars =['Bmw','Maruti'];
+        for(let i=0;i<cars;i++){
+            console.log(cars[i]);
+        }
+        for(car of cars){
+            console.log(car);
 
+functions
+    //return with parameter
+    function sum()
+    {
+
+    }
+    //return without parameter
+        function iseligibletovote
+    //no return without parameter
+        function noReturnWithoutParameter()
+        {
+            console.log(2+2);
+        }
+    //no return with parameter
+        function difference(num1,num2)
+        {
+            console.log(num1-num2)
+        }
+
+anonymous function
+    funtions without names.
+    ex:
+        let sum=function(){
+            console.log(1+2);
+        }
+        sum;
+arrow function
+    alternative to anonymous function. Also shorter.
+    ex:
+        let minus = () => console.log(5-2);
+        minus();
+
+DOM & Event
+        <html>
+            <body>
+                <h1></h1>
+                <p><p>
+            </body>
+        </html>
+
+    getElementsByTagName();
+    getElementById();
+    getElementsByClassName();
+    querySelector();

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let marks=[50,60,90,50];
+        let total=0;
+        function getResult(marks)
+        {
+            for(i=0;i<=4;i++)
+            {
+                if(marks[i]<40){
+                    console.log("Fail");
+                }
+                
+                
+            }
+        }
+        function getTotalMarks()
+        {
+          
+            for(i=0;i<4;i++)
+            {
+                total+=marks[i];
+            }
+            return total;
+        }
+        let percent=0;
+        function getPercentage(total,totalMarks)
+        {
+            percent=(total/totalMarks)*100;
+            return percent;
+        }
+
+        function getDivision(percent)
+        {
+            if(percent>80){
+                console.log("A");
+            }
+            else if(percent>60){
+                console.log("B");
+            }
+            else if(percent>40){
+                console.log("C");
+            }
+        }
+        
+        getResult(marks);
+        getTotalMarks();
+        getPercentage(getTotalMarks(),400);
+        getDivision(getPercentage());
+        
+    </script>
+</body>
+</html>
