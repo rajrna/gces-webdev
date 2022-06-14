@@ -90,3 +90,45 @@ DOM & Event
     getElementById();
     getElementsByClassName();
     querySelector();
+    querySelectorAll();
+
+Object
+    let person ={}; //empty object
+    let person = new Object();
+
+    person.name ="Al"
+    person.sound =() =>console.log("speak");
+    person.sound = function(){
+        console.log("speak");
+    }
+
+    let student ={
+        firstName:"John",
+        lastName:"redacted",
+        roll:117,
+        parent:{
+            fatherName:"unknown",
+            motherName:"unknown"
+        },
+        study:function(){
+            console.log("studying");
+        },
+        doAssignment(){
+            console.log("doing assignment");
+        },
+        play:()=> console.log("playing")
+    };
+
+
+    //call name
+        console.log(student.firstName);
+        console.log(student['lastName']);
+    //call function
+        student.study();
+
+    //imp
+        stacking order
+        visibility of an element
+
+Dynamic content/element
+    

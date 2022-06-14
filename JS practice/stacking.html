@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 120px;
+            width: 120px;
+            position: absolute;
+            margin: auto;
+        }
+        .red{
+            background-color: red;
+            left: 0;
+            top: 0;
+            bottom: 50px;
+            right: 80px;
+        }
+        .yellow{
+            background-color: yellow;            
+            left: 0;
+            top: 0;
+            bottom: 0;
+            right: 0;
+        }
+        .green{
+            background-color: green;
+            left: 80px;
+            top: 50px;
+            bottom: 0;
+            right: 0;
+            
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="red box"></div>
+    <div class="yellow box"></div>
+    <div class="green box"></div>
+    <script type="text/javascript">
+        const red = document.querySelector(".red");
+        const yellow = document.querySelector(".yellow");
+        const green = document.querySelector(".green");
+
+        red.addEventListener("click" ,function(){
+            red.style.zIndex=99;
+            yellow.style.zIndex=9;
+            green.style.zIndex=9;
+        });
+        yellow.addEventListener("click" ,function(){
+            yellow.style.zIndex=99;
+            green.style.zIndex=9;
+            red.style.zIndex=9;
+        });
+        green.addEventListener("click" ,function(){
+            green.style.zIndex=99;
+            yellow.style.zIndex=9;
+            red.style.zIndex=9;
+        });
+    </script>
+</body>
+</html>

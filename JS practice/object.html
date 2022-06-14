@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let GCES={
+            name: "Gandaki College of Engineering and Science",
+            affiliatedTo: "Pokhara University",
+            address:{
+                streetName:"Lamachaur",
+                city:"Pokhara",
+                district:"Gandaki",
+                country:"Nepal"
+                },
+            staff:[
+            
+                {
+                    name:"Birendra Khadka",
+                    position:"Principal",
+                    phone:"9836011111"
+                },
+                {
+                    name:"Ashok Raj Parajuli",
+                    position:"Vice principal",
+                    phone:"985602222"
+                },
+                {
+                    name:"Rajendra Thapa",
+                    position:"Project Head",
+                    phone:"9800606060"
+                }
+                ],
+            noOfStaff(){
+                this.staff.length
+            }
+        };
+        let principalArray = GCES.staff.filter(function(staff){
+            return staff.position =="Principal";
+        });
+        console.log(gces.staff.find(staff) => staff.name);
+        // console.log("Principal's name = "+ principalArray[0].name);
+        // for(i=0;i<=GCES.staff.length;i++){
+        //     if(GCES.staff.position == "Principal"){
+        //         console.log(GCES.staff);
+        //     }
+        // }
+        // //
+        console.log(GCES.name);
+    </script>
+</body>
+</html>
