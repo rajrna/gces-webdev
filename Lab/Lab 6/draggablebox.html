@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 250px;
+            height: 250px;
+            background-color: red;
+            cursor: pointer;
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div draggable="true" class="box"></div>
+    </div>
+    <script>
+        const box=document.querySelector(".box");
+        function enlarge(){
+            box.style.width=`${event.clientX}px`;
+            box.style.height=`${event.clientX}px`;
+        }
+        box.addEventListener("mousedown",function(){
+            box.addEventListener("mousemove",enlarge);
+
+        })
+        box.addEventListener("mouseup",function (){
+                    container.removeEventListener("mousemove",enlarge);
+                });
+        // box.addEventListener("drag",start);
+        // function start(e){
+        //     let x = e.pageX;
+        //     let y = e.pageY;
+        //     box.style.width =x + "px";
+        //     box.style.height =y + "px";
+
+            
+        // }
+        // // box.addEventListener("onmousemove",enlarge);
+        // // function enlarge(e){}
+        // box.addEventListener("onmouseup",end);
+        // function end(e){
+
+        // }
+            
+        
+    </script>
+</body>
+</html>

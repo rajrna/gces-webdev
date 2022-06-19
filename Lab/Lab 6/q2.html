@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pic{
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+            width: 350px;
+            height: 500px;
+        }
+        svg{
+            height: 20px;
+            width: 20px;
+        }
+        pic1{
+            z-index: 11;
+        }
+        pic2{
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+   <button> <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
+        <metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
+        <g><path d="M219.6,10h140.2v138.7H219.6V10z"/><path d="M359.8,148.7H500v140.2H359.8V148.7L359.8,148.7z"/><path d="M500,288.9h140.2v140.2H500V288.9z"/><path d="M500,569.4h140.2v140.2H500V569.4L500,569.4z"/><path d="M359.8,709.6H500v140.2H359.8V709.6L359.8,709.6z"/><path d="M219.6,849.8h140.2V990H219.6V849.8z"/><path d="M640.2,429.1h140.2v140.2H640.2V429.1L640.2,429.1z"/></g>
+        </svg>
+    </button>
+    <img class="pic1 pic" src="Spartan 4.png" alt="pic">
+    <img class="pic2 pic" src="Spartan 5.png" alt="pic">
+    <script>
+        const next = document.querySelector("btn");
+        const pic1 =document.querySelector(".pic1");
+        const pic2 =document.querySelector(".pic2");
+
+        next.addEventListener("click",change);
+        function change(){
+            pic2.style.zIndex=20;
+        }
+    </script>
+</body>
+</html>

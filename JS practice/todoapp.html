@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+		#input-todo {
+			height: 50px;
+			width:  50%;
+			margin-top: 2rem;
+			padding-left: 25px;
+		}
+		.container {
+			position: absolute;
+			margin: auto;
+			left: 0px;
+			right: 0px;
+			height: 70vh;
+			width: 50vw;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<input id="input-todo" type="text" placeholder="Enter your list" />
+		<div>
+			<h4>Your todo lists:</h4>
+			<div id="result">
+				
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		const inputEl = document.getElementById("input-todo");
+		const resultEl = document.getElementById("result");
+
+		let tasks = [];
+
+		function Task(name)
+		{
+			this.name = name;
+			this.isComplete = false;
+            markAsComplete =() => this.isComplete = true;
+            markAsComplete =() => this.isComplete = false;
+		}
+
+		function addTask(name)
+		{
+			tasks.push(new Task(name));
+			renderDOM();
+
+		}
+        function markAsAllComplete(){
+            tasks.forEach((task) => task.isComplete=true); 
+        }
+		function markAsAllInComplete()
+		{
+            tasks.forEach((task) => task.isComplete=false);
+		}
+
+		function removeTask(task)
+		{
+			tasks
+		}
+
+		inputEl.addEventListener("keyup", function (event) {
+			if (event.code == "Enter") {
+				addTask(inputEl.value);
+				inputEl.value = "";
+			}
+
+		});
+
+		function renderDOM()
+		{
+			resultEl.innerHTML = "";
+			tasks.forEach(function (task) {
+				resultEl.innerHTML += `<p><input type='checkbox' />${task.name} </p>`;
+			})
+		}
+	</script>
+</body>
+</html>
