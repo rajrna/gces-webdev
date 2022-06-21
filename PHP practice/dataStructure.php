@@ -1,0 +1,61 @@
+<?php
+
+$gcesStaffs[
+    "academic"=>[
+        [
+            "name"=>"Nishal",
+            "address"=>"Pokhara",
+            "phone"=>[
+                "980123456",
+                "981234561"
+                ],
+            "subjects"=>[
+                "Web Technology",
+                "Java"
+                ]   
+        ],
+        [
+            "name"=>"Rajendra",
+            "address"=>"Pokhara",
+            "phone"=>[
+                "9801111106",
+                "9812394561"
+                ],
+            "subjects"=>[
+                "C",
+                "C++"
+                ]   
+        ],
+        [
+            "name"=>"Tara",
+            "address"=>"Pokhara",
+            "phone"=>[
+              "980******",
+              "981******"
+             ]  ,
+            "subjects"=>[
+                "C",
+                "C++"
+            ]   
+        ]
+     ],
+     "non-academic"=>[
+        [
+            "name"=>"Mama",
+            "address"=>"Pokhara",
+            "phone"=>[
+                "980254566",
+                "980785655"
+            ]
+            ],
+        [
+            "name"=>"Mama",
+            "address"=>"Pokhara",
+            "phone"=>[
+                "980254566",
+                "980785655"
+            ]
+            ]
+            
+     ]   
+     ];
