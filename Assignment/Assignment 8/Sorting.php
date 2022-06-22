@@ -64,7 +64,7 @@ $gcesStaffs=[
     foreach($gcesStaffs as $type => $staff)
         {
    
-            echo '<table border="2px solid ">';
+            echo '<table border="1px solid ">';
             echo '<tr >'.$type.' : '.'<br/>'.'</tr>';
     foreach($staff as $info =>$details )
     {
