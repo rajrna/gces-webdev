@@ -1,0 +1,44 @@
+Database Management System
+
+            types:
+            1> SQL based
+                --- RDBMS
+                --common language SQL language
+                --- Data are represented in table
+                ----ec:MySql,SQL server,postgres
+            2> No SQL based
+                --- No SQL language
+                --- Data are represent in Javascript like object
+
+command:
+    mysql -u root -p
+    SHOW DATABASES;
+    CREATE DATABASE <database_name>;
+    use <database_name>;
+    DROP DATABASE <database_name>;
+
+    Table structure
+        CREATE TABLE <table_name>(
+
+        )
+        //Insert values
+            INSERT INTO `table_name`(`index`,``)
+                VALUES("""");
+        
+        SELECT <value> from <table_name>;
+        SELECT * from <table_name>; //shows all information
+        SELECT * from students where id=1 OR id=2;
+
+
+
+1)DDL (Data Definition language)
+    ---CREATE TABLE, CREATE DATABASE, DROP TABLE, DROP DATABASE
+2)DQL (Data Query language)
+    ---SELECT
+3)DML (Data Manipulation language)
+    ---INSERT,DELETE,UPDATE
+4)DCL (Data Control language)
+    ---GRANT, INVOKE
+
+update 
+implode vs explode//////////////////////////imp
